@@ -1,0 +1,18 @@
+IEEE 802.11 subcarriers 
+-----------------------
+The 20 MHz non high-throughput (non HT) OFDM has 64 subcarriers. Data is transmitted using 48 subcarriers and pilot signals are sent using 4 subcarriers. The remaining 12 subcarriers are not used for data transmission. Examples of non HT channels are 802.11 a and 802.11 g.
+
+The 20 MHz high-throughput (HT) also has 64 subcarriers. Data and pilot signals transmission is performed using 52 and four 4 subcarriers respectively. The remaining 8 subcarriers are left used. An example of HT channel is 802.11 n.
+
+The 40 MHz channel has 128 subcarriers: 108 subcarriers are used for data transmission, 6 subcarriers are used for pilot transmission and 14 subcarriers are unused.
+
+The 80 MHz channel has 256 subcarriers which is an aggregation two 40 MHz channels. It uses 242 subcarriers for transmission (exactly twice the number of subcarriers used for transmission on a 40 MHz channel (2*(108+6)).
+
+There are 512 subcarriers in 160 MHz, an aggregation of subcarriers from two 80 MHz channels, 484 subcarriers out of these are for transmission.
+
+
+Reference
+1. https://www.cwnp.com/forums/posts?Subcarrier-clarification-124224
+2. Wi-Fi: Overview of the 802.11 Physical Layerand Transmitter Measurements. Tektronix
+3.http://rfmw.em.keysight.com/wireless/helpfiles/89600b/webhelp/subsystems/wlan-ofdm/content/ofdm_80211-overview.htm
+4. http://www.revolutionwifi.net/revolutionwifi/2015/3/how-ofdm-subcarriers-work
