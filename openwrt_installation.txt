@@ -4,7 +4,7 @@ First Approach
 - Ensure that the package has its Makefile
     package/<package_name>/Makefile
 
-- In the current directory/folder, issue the following command
+- In the current directory/folder, issue the following commands
     make tools/install
     make toolchain/install
 
