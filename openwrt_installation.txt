@@ -51,3 +51,4 @@ confused with an enterprise router or gateway
 Reference
 1. https://oldwiki.archive.openwrt.org/doc/devel/packages
 2. https://oldwiki.archive.openwrt.org/doc/techref/opkg
+3. https://oldwiki.archive.openwrt.org/doc/howto/buildroot.exigence
