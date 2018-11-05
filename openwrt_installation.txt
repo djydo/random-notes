@@ -16,7 +16,7 @@ First Approach
          make package/<package_name>/install
    2. If installation is on a different computer or router*, copy to desired destination
         - scp <source_directory_with_compiled_package>  <dest_directory_to_install_package>
-         Example: scp BUILD_DIR/bin/ar71xx/package/<file_name>.ipk  root@192.168.1.1
+         Example: scp BUILD_DIR/bin/ar71xx/package/<file_name>.ipk  root@192.168.1.1:/~
 
         - SSH to the destination directory on access point or router*  with OpenWrt 
             example: ssh  <username>@<router_address>; ssh root@192.168.1.1
