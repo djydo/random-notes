@@ -60,7 +60,7 @@
 
 
 NOTE:
-* A router is a commodity device that functions both as an access point and a router. This should not be
+\* A router is a commodity device that functions both as an access point and a router. This should not be
 confused with an enterprise router or gateway
 
 
