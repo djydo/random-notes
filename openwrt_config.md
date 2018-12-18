@@ -8,8 +8,15 @@ cat \etc\config\wireless
 For example: enabling a wifi radio interface card `iface[0]` on a device can be set using command
 
 ```
- uci set wireless.@wifi-iface[0].disabled=0; uci commit wireless; wifi
+uci set wireless.@wifi-iface[0].disabled=0; uci commit wireless; wifi
 ```
+To set an STA to ignore fat channel intolerability (allowing the use of 40 MHz bandwidth on 2.4 GHz), use the following command. Note that this may violate the country's regulatory policy/restrictions.
+```
+uci set wireless.radio0.noscan=1
+uci commit
+reboot
+``` 
+
 
 ## reset driver
 To reset the driver, use the following command.
@@ -56,3 +63,4 @@ chbw='20'
 5. http://lists.shmoo.com/pipermail/hostap/2012-October/026781.html
 6. http://wiki.ninux.org/40MHzTable
 7. Primary and secondary channel https://www.cwnp.com/802-11n-primary-and-secondary-channels/
+8. 40 MHz channel on 2.4 GHz: https://github.com/kaloz/mwlwifi/issues/25
