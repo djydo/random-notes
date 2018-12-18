@@ -48,23 +48,27 @@
 - Connect to Internet via the WAN port on the router*
 
 - SSH into the router*
-    ssh  <username>@<router_address>; ssh root@192.168.1.1
-
+   ```
+    ssh  <username>@<router_address>; 
+   ```
+   Example: ``ssh root@192.168.1.1``
 - On the router's terminal, enter the following commands
-   $ opkg update
-   $ opkg install <package_name>
-
+    ```
+    $ opkg update
+    $ opkg install <package_name>
+    ```
 - Verify installation using command
-   $ opkg list | grep <package_name>
+    ```
+    $ opkg list | grep <package_name>
+    ```
 
 
-
-NOTE:
-* A router is a commodity device that functions both as an access point and a router. This should not be
+#### NOTE:
+\* A router is a commodity device that functions both as an access point and a router. This should not be
 confused with an enterprise router or gateway
 
 
-Reference
+### References
 1. https://oldwiki.archive.openwrt.org/doc/devel/packages
 2. https://oldwiki.archive.openwrt.org/doc/techref/opkg
 3. https://oldwiki.archive.openwrt.org/doc/howto/buildroot.exigence
