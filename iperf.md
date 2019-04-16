@@ -10,6 +10,7 @@
 
 ## 3) Reverse mode connection
   * iperf3 -c <remotehost> -R   (TCP test reverse mode (server sends, client receives))
+  * iperf -c <remotehost> -r  -u  -b 130m -i 1 (UDP test reverse from server, bandwidth set at 130Mbits/sec interval of 1 sec)
 
 ## 4) UDP testing
 iperf3 -c <remotehost> -u  -b 6MB   (video traffic (run 6 Mbps UDP test to server))
