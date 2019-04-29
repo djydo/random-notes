@@ -14,7 +14,7 @@
 
 ### Note:
 The Packet Tracer application may fail to run. This could be as a result of missing dependencies.
-   * switch to installation directory and run ```ldd PacketTracerX | grep “not found”`` 
+   * switch to installation directory and run ```ldd PacketTracerX | grep “not found”``` 
    * 'PacketTracerX' is the installed version of Packet Tracer e.g. PacketTracer7 or PacketTracer8
    * download and install the missing dependencies.
 
