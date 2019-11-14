@@ -11,7 +11,7 @@
     TCP is a connection oriented communication. It sets up a transport layer connection using (3-way handshake or call setup), establishes a virtual circuit, segment data stream, sequence each tranmitted segment and tears down the connection when transmission is done.  
 
 2. View, save and erase configuration on Cisco router
-   - view ios version and running configuration on RAM
+- view ios version and running configuration on RAM
 
    ```bash
         Corp#show running-config
@@ -40,7 +40,22 @@
         --More--
    ```
 
-   - save configuration
+   Other **show** commands for troubleshooting
+     > view all ip protocols on the interfaces
+     - show ip int *interface-id*  
+     > view interface ip address and status
+     - show ip int brief
+     > view ip address along with ip mask
+     - show protocols
+     > view routing protocols
+     - show ip protocols
+     > view the routing table
+     - show ip route
+     > In privilege mode, extended ping can be used to change source address or datagram size or repeat count
+     - ping
+     - traceroute  
+
+- save configuration
 
    ```bash
             Corp#copy run startup-config
@@ -53,7 +68,7 @@
             [OK]
    ```
 
-   - Erase startup configuration
+- Erase startup configuration
 
    ```bash
         Corp#erase startup-config 
