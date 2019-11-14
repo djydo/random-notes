@@ -47,4 +47,18 @@
        print("{0} is always enjoyable watching {1}".format(day_of_the_week, game))      
     ```
 
+* functools.lru_cache() decorator
+  can be used to perform memoization in dynamic programming
+  
+  ```Python
+    import functools
 
+    @functools.lru_cache()
+    def fib(nth):
+        if nth == 1 or n == 2:
+            # base case
+            return 1
+        else:
+            # recursion
+            return fib(nth - 1) + fib(nth + 1)
+  ```
