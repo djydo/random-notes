@@ -30,3 +30,4 @@ web resources
  top conferences - http://www.guide2research.com/topconf/network-communication
  conferences ranking - https://aminer.org/ranks/conf
  conferences ranking - http://www.conferenceranks.com/#data
+ calculate FFT from IQ data [link here](https://forums.radioreference.com/threads/help-to-calculate-fft-from-iq-data.326601/)
