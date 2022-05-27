@@ -18,3 +18,8 @@
  - [Neptune blog 1](https://neptune.ai/blog/hyperparameter-tuning-in-python-complete-guide)
  - [Neptune blog 2](https://neptune.ai/blog/best-tools-for-model-tuning-and-hyperparameter-optimization)
  - [Hyperparameter optimization frameworks with examples](https://towardsdatascience.com/10-hyperparameter-optimization-frameworks-8bc87bc8b7e3)
+
+### [Roboflow](https://app.roboflow.com/)
+- The website is useful for data generation for object detection, semantic segmentation etc. 
+- It allows data generation for many data formats like json, xml, tfrecord, csv etc.
+- It supports conversion between different data formats. For instance, conversion form Coco json to VOC xml

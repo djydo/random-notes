@@ -1,3 +1,4 @@
 .vscode/
 frontend_libraries/*
 scratch
+.DS_Store
